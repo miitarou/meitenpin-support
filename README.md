@@ -16,7 +16,7 @@ MeitenPin is a free, unofficial fan tool and is not affiliated with Tabelog,
 Kakaku.com, or the Tabelog Hyakumeiten program.
 
 Support page:
-https://miitarou.github.io/hyakumeiten-ios-all/support.html
+https://miitarou.github.io/meitenpin-support/support.html
 
 Privacy policy:
-https://miitarou.github.io/hyakumeiten-ios-all/privacy.html
+https://miitarou.github.io/meitenpin-support/privacy.html
