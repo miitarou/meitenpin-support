@@ -1,0 +1,48 @@
+name: Support request
+description: Report a bug, send feedback, or request a restaurant data correction.
+title: "[Support] "
+labels: ["support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for using MeitenPin.
+
+        Issues are public. Do not include personal information, reservation details,
+        phone numbers, precise current location, or other private information.
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request type
+      options:
+        - Bug report
+        - Feedback
+        - Restaurant data correction
+        - Other support request
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the issue or request.
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      description: If known, enter the app version.
+      placeholder: "1.0"
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iPhone
+        - iPad
+        - Other
+    validations:
+      required: false
